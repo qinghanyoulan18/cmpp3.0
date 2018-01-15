@@ -17,7 +17,7 @@ public class CMPPActive extends CMPPResponsePacket implements CMPPRequestBody {
     /**
      * Logger for this class
      */
-    private static final Log log = LogFactory.getLog(CMPPActive.class);
+    private static final Log log = LogFactory.getLog(CMPPActive.class);  
 
     @Override
 	public byte[] getRequestBody() {
