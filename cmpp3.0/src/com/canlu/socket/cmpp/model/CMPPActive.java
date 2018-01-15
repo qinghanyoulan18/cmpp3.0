@@ -20,7 +20,7 @@ public class CMPPActive extends CMPPResponsePacket implements CMPPRequestBody {
     private static final Log log = LogFactory.getLog(CMPPActive.class);  
 
     @Override
-	public byte[] getRequestBody() {   
+	public byte[] getRequestBody() {    
         return new byte[0];
     }
 
